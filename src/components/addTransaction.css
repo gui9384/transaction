@@ -1,0 +1,29 @@
+.addTransaction{
+    color: white;
+    background-color: var(--primaryColor);
+    margin: 30px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    display: flex;
+
+}
+.addTransaction span{
+  
+  margin-top: 7px;
+  margin-left: 5px;
+
+}
+.addtitle{
+  color:var(--primaryColor);
+  font-size: 24px;
+  font-weight: 800;
+}
+.fields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textField{
+  margin-top: 20px !important;
+}

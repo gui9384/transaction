@@ -1,0 +1,78 @@
+.root{
+    display: flex;
+    justify-content: baseline;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.home a svg{
+    font-size: 3rem;
+    color:var(--primaryColor);
+    margin-top:50px;
+    margin-left:100px
+}
+.title{
+    
+    color:var(--primaryColor);
+    font-size: xx-large;
+    font-weight: 800;
+    margin:50px 0;
+}
+
+.detail{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 50px;
+}
+.resultat{
+    color: #686868;
+    font-weight: 400; 
+}
+.comp{
+    color: white;
+    background-color: var(--successColor);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 400; 
+    text-transform: lowercase;
+    text-align: center;
+}
+
+
+.pend {
+   
+    background-color: var(--warningColor);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 400; 
+    text-transform: lowercase;
+  }
+  .man {
+   
+    background-color: var(--primaryColor);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 400; 
+    text-transform: lowercase;
+  }
+  
+  .editBtn{
+      background-color: var(--primaryColor);
+      color: white;
+      width: 300px;
+      border-radius: 8px;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 50px;
+  }
+  .editBtn span{
+      display: inline-block;
+      margin-top: 5px;
+      font-weight: 700;
+  }

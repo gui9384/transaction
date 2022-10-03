@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  
+  .grid{
+    margin-top: 20px;
+  }
+  
+  
+  .completed{
+    background-color: var(--successColor);
+    color: white;
+    text-align: center;
+  }
+  .pending {
+   
+    background-color: var(--warningColor);
+    color: white;
+    text-align: center;
+  }
+  .manual {
+   
+    background-color: var(--primaryColor);
+    color: white;
+    text-align: center;
+  }
+  
+  .positive{
+    color: var(--successColor);
+
+  }
+  .negative{
+    color:red
+}
+  .search{
+    position: absolute;
+    top: -65px;
+    left: 300px;
+   
+  }
+
+  
